@@ -17,7 +17,13 @@ The real single-cell RNA-seq datasets and source codes for our analyses are free
 
 ## Usage
 
-The dataset "Adam" is given as an example. You can run the
+The dataset "Adam" is given as an example. 
+
+First, you can run the following code in your command lines:
+
+python 
+
+You can will in ten random seeds. Then you can run the main.m to get the cluster result for "Adam" dataset. 
 
 ## Contact
 
