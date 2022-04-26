@@ -21,7 +21,7 @@ The dataset "Adam" is given as an example.
 
 First, you can run the following code in your command lines:
 
-python
+python SDDA.py 
 
 You can will obtain ten mat files in ten random seeds. Then you can run the main.m to get the cluster result for "Adam" dataset. 
 
