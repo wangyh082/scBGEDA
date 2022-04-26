@@ -23,7 +23,7 @@ First, you can run the following code in your command lines:
 
 python SDDA.py 
 
-You can will obtain ten mat files in ten random seeds. Then you can run the main.m to get the cluster result for "Adam" dataset. 
+You can will obtain ten mat files in ten random seeds. Then you can run the main.m to get the clustering result for "Adam" dataset. 
 
 ## Contact
 
