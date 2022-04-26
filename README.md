@@ -23,7 +23,11 @@ First, you can run the following code in your command lines:
 
 python SDDA.py 
 
-You can will obtain ten mat files in ten random seeds. Then you can run the main.m to get the clustering result for "Adam" dataset. 
+Then you can will obtain ten mat files in ten random seeds. 
+
+Next, you can run the main.m using Matlab to get the clustering result for "Adam" dataset. 
+
+Finally, you can achieve the median values of ARI and NMI, respectively.
 
 ## Contact
 
