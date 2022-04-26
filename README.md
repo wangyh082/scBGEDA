@@ -11,8 +11,12 @@ Tensorflow 1.14
 
 Keras 2.2
 
-##Data availability
+## Data availability
 
 The real single-cell RNA-seq datasets and source codes for our analyses are also freely available at (https://doi.org/10.6084/m9.figshare.16943722.v1)
+
+## Contact
+
+If you have any suggestions or questions, please email me at wangyh082@hebut.edu.cn.
 
 
