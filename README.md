@@ -15,7 +15,7 @@ Keras 2.2
 
 ## Data availability
 
-The real single-cell RNA-seq datasets and source codes for our analyses are freely available at (https://figshare.com/account/home#/projects/137832).
+The real single-cell RNA-seq datasets and source codes for our analyses are freely available at (https://figshare.com/articles/software/scBGEDA/19657911).
 
 ## Usage
 
