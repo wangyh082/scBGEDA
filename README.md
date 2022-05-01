@@ -5,6 +5,8 @@ Single-cell RNA sequencing (scRNA-seq) is an increasingly popular technique for 
 ## Architecture
 ![Image text](https://github.com/wangyh082/scBGEDA/blob/main/frame.jpg)
 
+The overall workflow of the scBGEDA pipeline, comprising three components: the data preprocessing mechanism, the single-cell dual denoising autoencoder network, and the bipartite graph ensemble clustering method.
+
 ## Requirements
 
 scBGEDA is written in Python3 and requires the following dependencies to be installed:
