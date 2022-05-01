@@ -36,11 +36,15 @@ The key functions of the source code and their detailed description.
 
 | Function     | Description                                   |
 | ------------ | --------------------------------------------- |
-| main.m       | Main function of our method.                  |
-| InfFS_U.m    | Unsupervised Graph-based Feature Ranking      |
-| ComputeGM.m  | Computing the graph-based linking matrix      |
-| Preprocess.m | Generating basic partitions                   |
-| exMeasure.m  | Computing NMI and ARI values after clustering |
+| preprocess.py| Function of the first module of scBGEDA       |
+| SDDA.py      | Function of the second module of scBGEDA      |
+| network.py   | Single-cell Dual Denoising Autoencoder Network|
+| loss.py      | the loss functions of the network             |
+| utils.py     | the utility functions of the network          |
+| main.m       | Main function of the third module of scBGEDA  |
+| BGEC.m       | Bipartite Graph Ensemble Clustering           |
+| rand_index.m | Computing ARI values after clustering         |
+| computeNMI.m | Computing NMI values after clustering         |
 
 ## Contact
 
