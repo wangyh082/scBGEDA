@@ -30,6 +30,17 @@ Then you can will obtain ten mat files in ten random seeds.
 Next, you can run the main.m using Matlab to get the clustering result for "Adam" dataset. 
 
 Finally, you can achieve the median values of ARI and NMI, respectively.
+## Key Functions
+
+The key functions of the source code and their detailed description.
+
+| Function     | Description                                   |
+| ------------ | --------------------------------------------- |
+| main.m       | Main function of our method.                  |
+| InfFS_U.m    | Unsupervised Graph-based Feature Ranking      |
+| ComputeGM.m  | Computing the graph-based linking matrix      |
+| Preprocess.m | Generating basic partitions                   |
+| exMeasure.m  | Computing NMI and ARI values after clustering |
 
 ## Contact
 
