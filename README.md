@@ -1,5 +1,15 @@
 # scBGEDA: Deep Single-cell Clustering Analysis via Dual Denoising Autoencoder with Bipartite Graph Ensemble Clustering
 
+- [Overview](##overview)
+- [Architecture](##Architecture)
+- [Requirements](##Requirements)
+- [Data availability](##Data availability)
+- [Usage](##Usage)
+- [Key Functions](##Key Functions)
+- [Contact](##Contact)
+
+## Overview
+
 Single-cell RNA sequencing (scRNA-seq) is an increasingly popular technique for transcriptomic analysis of gene expression at the single-cell level. Cell-type clustering is the first crucial task in the analysis of scRNA-seq data to facilitate accurate identification of cell types and to study the characteristics of their transcripts. Recently, several computational models based on a deep autoencoder and the ensemble clustering have been developed to analyze scRNA-seq data. However, current deep autoencoders are not sufficient to learn the latent representations of scRNA-seq data, and obtaining consensus partitions from these feature representations remains under-explored. To address this challenge, we propose a single-cell deep clustering model via a dual denoising autoencoder with bipartite graph ensemble clustering called scBGEDA, to identify specific cell populations in single-cell transcriptome profiles. First, a single-cell dual denoising  autoencoder network is proposed to project the data into a compressed low-dimensional space and that can learn feature representation via explicit modeling of synergistic optimization of ZINB reconstruction loss and denoising reconstruction loss. Then, a bipartite graph ensemble clustering algorithm is designed to exploit the relationships between cells and the learned latent embedded space by means of a graph-based consensus function. Multiple comparison experiments were conducted on fifteen scRNA-seq datasets from different sequencing platforms using a variety of clustering metrics. The experimental results indicated that scBGEDA outperforms other state-of-the-art methods on these datasets, and also demonstrated scalability to large scale scRNA-seq datasets. Moreover, scBGEDA was able to identify cell-type specific marker genes and provide functional genomic analysis by quantifying the influence of genes on cell clusters, bringing new insights to identify cell types and characterize the scRNA-seq data from different perspectives.
 
 ## Architecture
