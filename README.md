@@ -3,9 +3,9 @@
 - [Overview](#overview)
 - [Architecture](#Architecture)
 - [Requirements](#Requirements)
-- [Data availability](#Data availability)
+- [Data availability](#Data-availability)
 - [Usage](#Usage)
-- [Key Functions](#Key Functions)
+- [Key Functions](#Key-Functions)
 - [Contact](#Contact)
 
 # Overview
