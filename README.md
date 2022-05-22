@@ -7,6 +7,7 @@
 - [Data availability](#Data-availability)
 - [Usage](#Usage)
 - [Key Functions](#Key-Functions)
+- [Results](#Results)
 - [Contact](#Contact)
 
 # Overview
@@ -58,6 +59,12 @@ The key functions of the source code and their detailed description.
 | BGEC.m       | Bipartite Graph Ensemble Clustering           |
 | rand_index.m | Computing ARI values after clustering         |
 | computeNMI.m | Computing NMI values after clustering         |
+
+# Results
+Multiple comparison experiments were conducted on fifteen scRNA-seq datasets from different sequencing
+platforms using a variety of clustering metrics. The experimental results indicated that scBGEDA
+outperforms other state-of-the-art methods on these datasets, and also demonstrated scalability to large
+scale scRNA-seq datasets. 
 
 # Contact
 
