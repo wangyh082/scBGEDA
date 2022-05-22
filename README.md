@@ -1,6 +1,6 @@
 # scBGEDA: Deep Single-cell Clustering Analysis via Dual Denoising Autoencoder with Bipartite Graph Ensemble Clustering
 
-# Content
+# Contents
 - [Overview](#overview)
 - [Architecture](#Architecture)
 - [Requirements](#Requirements)
