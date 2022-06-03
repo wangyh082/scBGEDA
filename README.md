@@ -22,16 +22,27 @@ The overall workflow of the scBGEDA pipeline, comprising three components: the d
 # Installation
 
 1. Requirements:
+
 [python 3,6+]
+
 [tensorflow 2.6.2]
+
 [keras 2.6.0]
+
 [scanpy 1.7.2]
+
 [scipy 1.5.4]
+
 [tqdm 4.64.0]
+
 [packaging 21.3]
+
 [python-dateutil 2.8.2]
+
 [jgraph 0.2.1]
+
 [pillow 8.4.0]
+
 [sklearn]
 
 2. Installation:
