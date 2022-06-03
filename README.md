@@ -24,7 +24,8 @@ The overall workflow of the scBGEDA pipeline, comprising three components: the d
 1. Requirements:
 
 ```
-[python 3,6+]
+[python 3.6+]
+[IPython 7.16.3]
 [tensorflow 2.6.2]
 [keras 2.6.0]
 [scanpy 1.7.2]
