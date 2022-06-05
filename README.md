@@ -25,13 +25,13 @@ The overall workflow of the scBGEDA pipeline, comprising three components: the d
 
 ```
 [python 3.6+]
-[tensorflow 2.9.1]
-[keras 2.9.0]
-[numpy 1.22.4]
+[tensorflow 2.6.0]
+[keras 2.6.0]
+[numpy 1.19.5]
 [jgraph 0.2.1]
-[scipy 1.8.1]
-[scanpy 1.9.1]
-[pathos 0.2.9]
+[scipy 1.5.4]
+[scanpy 1.7.2]
+[pathos 0.2.8]
 [tqdm 4.64.0]
 [python-dateutil 2.8.2]
 ```
