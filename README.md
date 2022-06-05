@@ -25,34 +25,32 @@ The overall workflow of the scBGEDA pipeline, comprising three components: the d
 
 ```
 [python 3.6+]
-[IPython 7.16.3]
-[tensorflow 2.6.2]
-[keras 2.6.0]
-[scanpy 1.7.2]
-[scipy 1.5.4]
-[tqdm 4.64.0]
-[packaging 21.3]
-[python-dateutil 2.8.2]
+[tensorflow 2.9.1]
+[keras 2.9.0]
+[numpy 1.21.4]
 [jgraph 0.2.1]
-[pillow 8.4.0]
-[sklearn]
+[scipy 1.8.1]
+[scanpy 1.9.2]
+[pathos conda0.2.9]
+[tqdm 4.62.1]
+[python-dateutil 2.8.2]
 ```
 
 2. Installation:
 2.1 Build from sources
 To meet the requirements, we recommend user to use either (1) [conda](https://docs.conda.io/projects/conda/en/latest/index.html) environment:
 ```
-# Download SapCell from GitHub and install all required packages:
+# Download scBGEDA from GitHub and install all required packages:
 
-git clone https://github.com/BiomedicalMachineLearning/Spacell.git
-cd scBGEDA
+git clone https://github.com/wangyh082/scBGEDA.git
+cd code
 conda env create -f requirements.yml
 ```
 
 ```
 # To activate environment:
 
-conda activate SpaCell
+conda activate scBGEDA
 ```
 
 ```
@@ -71,11 +69,17 @@ The dataset "Adam" is given as an example.
 
 First, you can run the following code in your command lines:
 
-python SDDA.py 
+python SDDA.py --dataname Adam
+
+The other parameters including can be provided as you like in your command lines, such as:
+
+python SDDA.py --dataset Adam --highly_genes 2000
 
 Then you can will obtain ten mat files in ten random seeds. 
 
-Next, you can run the main.m using Matlab to get the clustering result for "Adam" dataset. 
+Next, you can run the main.m using Matlab to get the clustering result for the dataset "Adam" in your command lines:
+
+matlab main.m --
 
 Finally, you can achieve the median values of ARI and NMI, respectively.
 # Key Functions
