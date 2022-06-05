@@ -38,7 +38,7 @@ The overall workflow of the scBGEDA pipeline, comprising three components: the d
 
 2. Installation:
 
-To meet the requirements, we recommend user to use either (1) [conda](https://docs.conda.io/projects/conda/en/latest/index.html) environment:
+To meet the requirements, we recommend user to use [conda](https://docs.conda.io/projects/conda/en/latest/index.html) environment:
 ```
 # Download scBGEDA from GitHub and create an environment:
 
