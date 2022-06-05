@@ -71,7 +71,7 @@ First, you can run the following code in your command lines:
 
 python SDDA.py --dataname Adam
 
-Moreover, the parameters including "dataname", "highly_genes", "random_seed", "dims", "alpha", "learning_rate", "batch_size", "pretrain_epoch", "noise_sd", "gpu_option" can be provided as you like in your command lines, such as:
+Moreover, the parameters including "dataname", "highly_genes", "random_seed", "dims", "alpha", "learning_rate", "batch_size", "pretrain_epoch", "noise_sd", "gpu_option" can be set as you like in your command lines, such as:
 
 python SDDA.py --dataset Quake_Smart-seq2_Diaphragm --highly_genes 2000 
 
