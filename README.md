@@ -80,7 +80,7 @@ SDDA.py [-h] [--dataname DATANAME] [--highly_genes HIGHLY_GENES]
                [--gpu_option GPU_OPTION]
 
 optional arguments:
-  -h, --help            show this help message and exit
+  -h, --help Show this help message and exit
   --dataname DATANAME The input dataname
   --highly_genes HIGHLY_GENES The number of highly variable genes
   --random_seed RANDOM_SEED The random seeds which are used to select the cells randomly to ensure the fairness
