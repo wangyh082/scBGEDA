@@ -31,7 +31,7 @@ The overall workflow of the scBGEDA pipeline, comprising three components: the d
 [jgraph 0.2.1]
 [scipy 1.8.1]
 [scanpy 1.9.2]
-[pathos conda0.2.9]
+[pathos 0.2.9]
 [tqdm 4.62.1]
 [python-dateutil 2.8.2]
 ```
@@ -43,14 +43,25 @@ To meet the requirements, we recommend user to use either (1) [conda](https://do
 # Download scBGEDA from GitHub and install all required packages:
 
 git clone https://github.com/wangyh082/scBGEDA.git
-cd code
-conda env create -f requirements.yml
+conda create -n scBGEDA python=3.6
 ```
 
 ```
 # To activate environment:
 
 conda activate scBGEDA
+```
+
+```
+#To install the packages:
+pip install tensorflow
+pip install keras
+pip install numpy 
+pip install jgraph
+pip install scipy
+pip install pathos
+pip install tqdm 
+pip install python-dateutil
 ```
 
 ```
@@ -68,6 +79,8 @@ The real single-cell RNA-seq datasets and source codes for our analyses are free
 The dataset "Adam" is given as an example. 
 
 First, you can run the following code in your command lines:
+
+cd code
 
 python SDDA.py --dataname Adam
 
