@@ -37,10 +37,10 @@ The overall workflow of the scBGEDA pipeline, comprising three components: the d
 ```
 
 2. Installation:
-2.1 Build from sources
+
 To meet the requirements, we recommend user to use either (1) [conda](https://docs.conda.io/projects/conda/en/latest/index.html) environment:
 ```
-# Download scBGEDA from GitHub and install all required packages:
+# Download scBGEDA from GitHub and create an environment:
 
 git clone https://github.com/wangyh082/scBGEDA.git
 conda create -n scBGEDA python=3.6
@@ -53,7 +53,8 @@ conda activate scBGEDA
 ```
 
 ```
-#To install the packages:
+# To install all required packages:
+
 pip install tensorflow
 pip install keras
 pip install numpy 
