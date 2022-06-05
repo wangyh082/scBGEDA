@@ -78,9 +78,9 @@ cd code
 
 python SDDA.py --dataname Adam
 
-Moreover, the parameters including "dataname", "highly_genes", "random_seed", "dims", "alpha", "learning_rate", "batch_size", "pretrain_epoch", "noise_sd", "gpu_option" can be set as you like in your command lines, such as:
+Moreover, the parameters including "dataname", "highly_genes", "random_seed", "dims", "alpha", "learning_rate", "batch_size", "pretrain_epoch", "noise_sd", "gpu_option" can be set as you like in your command lines, for instance:
 
-python SDDA.py --dataset Quake_Smart-seq2_Diaphragm --highly_genes 2000 
+python SDDA.py --dataname Adam --highly_genes 2000 --random_seed "1111, 2222, 3333, 4444, 5555, 6666, 7777, 8888, 9999, 10000" --dims "256, 32" --alpha 0.001 --learning_rate 0.0001 --batch_size 256 --pretrain_epoch 1000 --noise_sd 1.5 --gpu_option "2" 
 
 If the parameter is not set to a given value, then it will use the default setting.
 
