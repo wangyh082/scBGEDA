@@ -70,6 +70,30 @@ The real single-cell RNA-seq datasets and source codes for our analyses are free
 
 # Usage
 
+## Command Lines
+
+```  
+SDDA.py [-h] [--dataname DATANAME] [--highly_genes HIGHLY_GENES]
+               [--random_seed RANDOM_SEED] [--dims DIMS] [--alpha ALPHA]
+               [--learning_rate LEARNING_RATE] [--batch_size BATCH_SIZE]
+               [--pretrain_epoch PRETRAIN_EPOCH] [--noise_sd NOISE_SD]
+               [--gpu_option GPU_OPTION]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --dataname DATANAME The input dataname
+  --highly_genes HIGHLY_GENES The number of highly variable genes
+  --random_seed RANDOM_SEED The random seeds which are used to select the cells randomly to ensure the fairness
+  --dims DIMS The dimensions of the hidden layers
+  --alpha ALPHA The hyperparameter to control the relative impact of two decoders
+  --learning_rate LEARNING_RATE
+  --batch_size BATCH_SIZE
+  --pretrain_epoch PRETRAIN_EPOCH 
+  --noise_sd NOISE_SD
+  --gpu_option GPU_OPTION
+```  
+
+## Example
 The dataset "Adam" is given as an example. 
 
 First, you can run the following code in your command lines:
@@ -91,6 +115,7 @@ Next, you can run the main.m using Matlab to get the clustering result for the d
 matlab main.m --
 
 Finally, you can achieve the median values of ARI and NMI, respectively.
+
 # Key Functions
 
 The key functions of the source code and their detailed description.
