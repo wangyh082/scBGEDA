@@ -71,9 +71,11 @@ First, you can run the following code in your command lines:
 
 python SDDA.py --dataname Adam
 
-The other parameters including can be provided as you like in your command lines, such as:
+The parameters including "dataname", "highly_genes", "random_seed", "dims", "alpha", "learning_rate", "batch_size", "pretrain_epoch", "noise_sd", "gpu_option" can be provided as you like in your command lines, such as:
 
-python SDDA.py --dataset Adam --highly_genes 2000
+python SDDA.py --dataset Quake_Smart-seq2_Diaphragm --highly_genes 2000 
+
+If the parameter is not set to a given value, then it will use the default setting.
 
 Then you can will obtain ten mat files in ten random seeds. 
 
