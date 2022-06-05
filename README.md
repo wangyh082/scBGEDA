@@ -60,6 +60,7 @@ pip install keras
 pip install numpy 
 pip install jgraph
 pip install scipy
+pip install scanpy
 pip install pathos
 pip install tqdm 
 pip install python-dateutil
