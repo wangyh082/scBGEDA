@@ -55,15 +55,7 @@ conda activate scBGEDA
 ```
 # To install all required packages:
 
-pip install tensorflow
-pip install keras
-pip install numpy 
-pip install jgraph
-pip install scipy
-pip install scanpy
-pip install pathos
-pip install tqdm 
-pip install python-dateutil
+pip install -r requirements.txt
 ```
 
 ```
