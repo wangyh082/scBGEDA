@@ -108,15 +108,15 @@ Using the default values：
 
 python SDDA.py --dataname Adam
 
-After that, to generate a more efficient clustering result, use the following code in your command lines:
+After that, to generate a more efficient clustering result, use the following code:
 
 Do not use the default values of those parameters:
 
-matlab -r "BC 100 2 60 [1111, 2222, 3333, 4444, 5555, 6666, 7777, 8888, 9999, 10000]"
+matlab -r "BC Adam 100 2 60 [1111, 2222, 3333, 4444, 5555, 6666, 7777, 8888, 9999, 10000]"
 
 Using the default values：
 
-matlab -r "BC"
+matlab -r "BC Adam"
 
 Output explanation:
 The final output reports the clustering performance and the median values of ARI and NMI is provided, respectively.
