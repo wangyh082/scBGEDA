@@ -93,28 +93,26 @@ optional arguments:
   --gpu_option GPU_OPTION
 ```  
 
-## Example
-The dataset "Adam" is given as an example. 
+## Examples:
+The parameters including "dataname", "highly_genes", "random_seed", "dims", "alpha", "learning_rate", "batch_size", "pretrain_epoch", "noise_sd", "gpu_option" can be set as you like in your command lines.
 
-First, you can run the following code in your command lines:
+We set default settings for each parameter, and if the parameter is not set to the given value, then it will use the default settings. 
 
-cd code
+Take the dataset "Adam"  as an example.
+
+Do not use the default value:
+
+python SDDA.py --dataname Adam --highly_genes 2000 --random_seed "1111, 2222, 3333, 4444, 5555, 6666, 7777, 8888, 9999, 10000" --dims "256, 32" --alpha 0.001 --learning_rate 0.0001 --batch_size 256 --pretrain_epoch 1000 --noise_sd 1.5 --gpu_option “2"
+
+Using the default value：
 
 python SDDA.py --dataname Adam
 
-Moreover, the parameters including "dataname", "highly_genes", "random_seed", "dims", "alpha", "learning_rate", "batch_size", "pretrain_epoch", "noise_sd", "gpu_option" can be set as you like in your command lines, for instance:
+After that, to generate a more efficient clustering result, use the following code:
 
-python SDDA.py --dataname Adam --highly_genes 2000 --random_seed "1111, 2222, 3333, 4444, 5555, 6666, 7777, 8888, 9999, 10000" --dims "256, 32" --alpha 0.001 --learning_rate 0.0001 --batch_size 256 --pretrain_epoch 1000 --noise_sd 1.5 --gpu_option "2" 
 
-If the parameter is not set to a given value, then it will use the default setting.
-
-Then you can will obtain ten mat files in ten random seeds. 
-
-Next, you can run the main.m using Matlab to get the clustering result for the dataset "Adam" in your command lines:
-
-matlab main.m --
-
-Finally, you can achieve the median values of ARI and NMI, respectively.
+Output explanation:
+The final output reports the clustering performance and the median values of ARI and NMI is provided, respectively.
 
 # Key Functions
 
