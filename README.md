@@ -132,7 +132,7 @@ The key functions of the source code and their detailed description.
 | network.py   | Single-cell Dual Denoising Autoencoder Network|
 | loss.py      | the loss functions of the network             |
 | utils.py     | the utility functions of the network          |
-| main.m       | Main function of the third module of scBGEDA  |
+| BC.m       | Main function of the third module of scBGEDA  |
 | BGEC.m       | Bipartite Graph Ensemble Clustering           |
 | rand_index.m | Computing ARI values after clustering         |
 | computeNMI.m | Computing NMI values after clustering         |
