@@ -100,11 +100,11 @@ We set default settings for each parameter, and if the parameter is not set to t
 
 Take the dataset "Adam"  as an example.
 
-Do not use the default value:
+Do not use the default values of those parameters:
 
 python SDDA.py --dataname Adam --highly_genes 2000 --random_seed "1111, 2222, 3333, 4444, 5555, 6666, 7777, 8888, 9999, 10000" --dims "256, 32" --alpha 0.001 --learning_rate 0.0001 --batch_size 256 --pretrain_epoch 1000 --noise_sd 1.5 --gpu_option “2"
 
-Using the default value：
+Using the default values：
 
 python SDDA.py --dataname Adam
 
