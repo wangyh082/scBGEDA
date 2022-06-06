@@ -108,7 +108,7 @@ Using the default values：
 
 python SDDA.py --dataname Adam
 
-After that, to generate a more efficient clustering result, use the following code:
+After that, to generate a more efficient clustering result, use the following code in your command lines:
 
 Do not use the default values of those parameters:
 
