@@ -94,6 +94,8 @@ optional arguments:
 ```  
 
 ## Examples:
+
+```  
 The parameters including "dataname", "highly_genes", "random_seed", "dims", "alpha", "learning_rate", "batch_size", "pretrain_epoch", "noise_sd", "gpu_option" can be set as you like in your command lines.
 
 We set default settings for each parameter, and if the parameter is not set to the given value, then it will use the default settings. 
@@ -122,9 +124,11 @@ matlab -r "BC 'Adam'"
 
 Output explanation:
 The final output reports the clustering performance and the median values of ARI and NMI is provided, respectively.
+```  
 
 # Key Functions
 
+```  
 The key functions of the source code and their detailed description.
 
 | Function     | Description                                   |
@@ -138,15 +142,20 @@ The key functions of the source code and their detailed description.
 | BGEC.m       | Bipartite Graph Ensemble Clustering           |
 | rand_index.m | Computing ARI values after clustering         |
 | computeNMI.m | Computing NMI values after clustering         |
+```  
 
 # Results
+
+```  
 Multiple comparison experiments were conducted on fifteen scRNA-seq datasets from different sequencing
 platforms using a variety of clustering metrics. The experimental results indicated that scBGEDA
 outperforms other state-of-the-art methods on these datasets, and also demonstrated scalability to large
 scale scRNA-seq datasets. 
+```  
 
 # Contact
 
+```  
 If you have any suggestions or questions, please email me at wangyh082@hebut.edu.cn.
-
+```  
 
