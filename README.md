@@ -110,9 +110,11 @@ python SDDA.py --dataname Adam
 
 After that, to generate a more efficient clustering result, use the following code:
 
+The parameters including "dataName" (the specific dataset), "m" (the ensemble size), "bcsLowK" (the minimum number of the clusters), "bcsUpK" (the maximum of the clusters when generating the ) can be set as you like in your command lines. The "random_seed"  is the same as the random seed in the SDDA.py.
+
 Do not use the default values of those parameters:
 
-matlab -r "BC 'Adam' 100 2 60 [1111, 2222, 3333, 4444, 5555, 6666, 7777, 8888, 9999, 10000]"
+matlab -r "BC 'Adam' 100 2 40 [1111, 2222, 3333, 4444, 5555, 6666, 7777, 8888, 9999, 10000]"
 
 Using the default values：
 
@@ -132,7 +134,7 @@ The key functions of the source code and their detailed description.
 | network.py   | Single-cell Dual Denoising Autoencoder Network|
 | loss.py      | the loss functions of the network             |
 | utils.py     | the utility functions of the network          |
-| BC.m       | Main function of the third module of scBGEDA  |
+| BC.m         | Main function of the third module of scBGEDA  |
 | BGEC.m       | Bipartite Graph Ensemble Clustering           |
 | rand_index.m | Computing ARI values after clustering         |
 | computeNMI.m | Computing NMI values after clustering         |
