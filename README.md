@@ -102,13 +102,13 @@ We set default settings for each parameter, and if the parameter is not set to t
 Take the dataset "Adam"  as an example.
 
 ```
-#Do not use the default values of those parameters:
+# Do not use the default values of those parameters:
 
 python SDDA.py --dataname Adam --highly_genes 2000 --random_seed "1111, 2222, 3333, 4444, 5555, 6666, 7777, 8888, 9999, 10000" --dims "256, 32" --alpha 0.001 --learning_rate 0.0001 --batch_size 256 --pretrain_epoch 1000 --noise_sd 1.5 --gpu_option “2"
 ```
 
 ```
-#Using the default values：
+# Using the default values：
 
 python SDDA.py --dataname Adam
 ```
@@ -118,12 +118,12 @@ After that, to generate a more efficient clustering result, use the following co
 The parameters including "dataName" (the specific dataset), "m" (the ensemble size), "bcsLowK" (the minimum number of the clusters in generating the basic clustreings), "bcsUpK" (the maximum of the clusters in generating the basic clusterings) can be set as you like in your command lines. The "random_seed" is the same as the random seed in the SDDA.py.
 
 ```
-#Do not use the default values of those parameters:
+% Do not use the default values of those parameters:
 
 matlab -r "BC 'Adam' 100 2 40 [1111, 2222, 3333, 4444, 5555, 6666, 7777, 8888, 9999, 10000]"
 ```
 ```
-Using the default values：
+% Using the default values：
 
 matlab -r "BC 'Adam'"
 ```
