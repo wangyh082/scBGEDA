@@ -94,41 +94,45 @@ optional arguments:
 ```  
 
 ## Examples:
-
-```  
+  
 The parameters including "dataname", "highly_genes", "random_seed", "dims", "alpha", "learning_rate", "batch_size", "pretrain_epoch", "noise_sd", "gpu_option" can be set as you like in your command lines.
 
 We set default settings for each parameter, and if the parameter is not set to the given value, then it will use the default settings. 
 
 Take the dataset "Adam"  as an example.
 
-Do not use the default values of those parameters:
+```
+#Do not use the default values of those parameters:
 
 python SDDA.py --dataname Adam --highly_genes 2000 --random_seed "1111, 2222, 3333, 4444, 5555, 6666, 7777, 8888, 9999, 10000" --dims "256, 32" --alpha 0.001 --learning_rate 0.0001 --batch_size 256 --pretrain_epoch 1000 --noise_sd 1.5 --gpu_option “2"
+```
 
-Using the default values：
+```
+#Using the default values：
 
 python SDDA.py --dataname Adam
+```
 
 After that, to generate a more efficient clustering result, use the following code:
 
 The parameters including "dataName" (the specific dataset), "m" (the ensemble size), "bcsLowK" (the minimum number of the clusters in generating the basic clustreings), "bcsUpK" (the maximum of the clusters in generating the basic clusterings) can be set as you like in your command lines. The "random_seed" is the same as the random seed in the SDDA.py.
 
-Do not use the default values of those parameters:
+```
+#Do not use the default values of those parameters:
 
 matlab -r "BC 'Adam' 100 2 40 [1111, 2222, 3333, 4444, 5555, 6666, 7777, 8888, 9999, 10000]"
-
+```
+```
 Using the default values：
 
 matlab -r "BC 'Adam'"
+```
 
 Output explanation:
 The final output reports the clustering performance and the median values of ARI and NMI is provided, respectively.
-```  
 
 # Key Functions
-
-```  
+ 
 The key functions of the source code and their detailed description.
 
 | Function     | Description                                   |
@@ -141,21 +145,16 @@ The key functions of the source code and their detailed description.
 | BC.m         | Main function of the third module of scBGEDA  |
 | BGEC.m       | Bipartite Graph Ensemble Clustering           |
 | rand_index.m | Computing ARI values after clustering         |
-| computeNMI.m | Computing NMI values after clustering         |
-```  
+| computeNMI.m | Computing NMI values after clustering         | 
 
 # Results
 
-```  
 Multiple comparison experiments were conducted on fifteen scRNA-seq datasets from different sequencing
 platforms using a variety of clustering metrics. The experimental results indicated that scBGEDA
 outperforms other state-of-the-art methods on these datasets, and also demonstrated scalability to large
 scale scRNA-seq datasets. 
-```  
 
 # Contact
 
-```  
 If you have any suggestions or questions, please email me at wangyh082@hebut.edu.cn.
-```  
 
