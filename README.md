@@ -110,7 +110,7 @@ python SDDA.py --dataname Adam
 
 After that, to generate a more efficient clustering result, use the following code:
 
-The parameters including "dataName" (the specific dataset), "m" (the ensemble size), "bcsLowK" (the minimum number of the clusters), "bcsUpK" (the maximum of the clusters when generating the ) can be set as you like in your command lines. The "random_seed"  is the same as the random seed in the SDDA.py.
+The parameters including "dataName" (the specific dataset), "m" (the ensemble size), "bcsLowK" (the minimum number of the clusters in generating the basic clustreings), "bcsUpK" (the maximum of the clusters in generating the basic clusterings) can be set as you like in your command lines. The "random_seed" is the same as the random seed in the SDDA.py.
 
 Do not use the default values of those parameters:
 
